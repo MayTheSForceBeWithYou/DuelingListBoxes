@@ -1,0 +1,29 @@
+<apex:component controller="DuelingListBoxes">
+  <apex:form >
+    <div id="colselector" class="duelingListBox">
+      <div id="errorMsg" class="errorMsg" style="display: block;"></div>
+      <table class="layout">
+        <tbody>
+          <tr>
+            <td class="selectCell">
+              <div class="selectTitle">
+                <label for="colselector_select_0"></label>
+              </div>
+              <apex:selectList />
+            </td>
+            <td class="zen-phs buttonCell">
+              <div class="text"></div>
+              <div class="zen-mbs text"></div>
+              <div class="text"></div>
+              <div class="duelingText"></div>
+            </td>
+            <td class="selectCell">
+              <div class="selectTitle"></div>
+              <apex:selectList />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </apex:form>
+</apex:component>
